@@ -9,5 +9,8 @@
         <module name="zhb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zhb" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

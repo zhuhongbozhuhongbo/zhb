@@ -4,14 +4,20 @@ import java.util.Base64;
 
 public class GPSDecode {
     public static void main(String[] args) {
-        String haha = "LPc/elV+uCI=";
+        java.text.DecimalFormat df = new java.text.DecimalFormat("#.000000");
+
+        String haha = "P6MlhlxJIQg=";
         byte[] haha1 = Base64.getDecoder().decode(haha);
         System.out.println("   f" + haha1);
 
+
         System.out.println("size:" + haha1.length + "   " + haha1[0]);
-        System.out.println("before" + ByteCompile.byte2Int(haha1[4], haha1[5], haha1[6], haha1[7]
-        ) * 180.0 / Integer.MAX_VALUE + "," + ByteCompile.byte2Int(haha1[0], haha1[1], haha1[2], haha1[3]
-        ) * 90.0 / Integer.MAX_VALUE);
+        double lg = ByteCompile.byte2Int(haha1[4], haha1[5], haha1[6], haha1[7]
+        ) * 180.0 / Integer.MAX_VALUE;
+        double lt = ByteCompile.byte2Int(haha1[0], haha1[1], haha1[2], haha1[3]
+        ) * 90.0 / Integer.MAX_VALUE;
+
+        System.out.println("before" + df.format(lg) + "," + df.format(lt));
 
 
         String gaga = "LLFEQ1V/7g4=";

@@ -1,4 +1,4 @@
-package TCP_Tester;
+package com.cxgc.TCP_Tester;
 
 import java.util.Calendar;
 import java.util.Date;

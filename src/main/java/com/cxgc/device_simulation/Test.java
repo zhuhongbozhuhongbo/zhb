@@ -1,6 +1,5 @@
-package device_simulation;
+package com.cxgc.device_simulation;
 
-import java.security.MessageDigest;
 public class Test {
 
     public static void main(String[] args) {

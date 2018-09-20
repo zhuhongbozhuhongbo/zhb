@@ -1,4 +1,4 @@
-package device_simulation;
+package com.cxgc.device_simulation;
 
 public class SimuGenerate {
     public SimuGenerate(Data d0, Data d1, Data d2, Data d3, Data d4, Data d5) {

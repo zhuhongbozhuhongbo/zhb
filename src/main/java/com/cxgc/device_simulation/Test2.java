@@ -1,4 +1,4 @@
-package device_simulation;
+package com.cxgc.device_simulation;
 
 public class Test2 {
 

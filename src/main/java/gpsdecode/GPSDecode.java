@@ -4,9 +4,10 @@ import java.util.Base64;
 
 public class GPSDecode {
     public static void main(String[] args) {
+        System.out.println(ClassLoader.getSystemResource(""));
         java.text.DecimalFormat df = new java.text.DecimalFormat("#.000000");
 
-        String haha = "P3oy91w031s=";
+        String haha = "LeLQW1UU/G8=";
         byte[] haha1 = Base64.getDecoder().decode(haha);
         System.out.println("   f" + haha1);
 
@@ -20,7 +21,7 @@ public class GPSDecode {
         System.out.println("before" + df.format(lg) + "," + df.format(lt));
 
 
-        String gaga = "LLFEQ1V/7g4=";
+        String gaga = "QQ+Pj1oKzU0=";
         byte[] gaga1 = Base64.getDecoder().decode(gaga);
         System.out.println("   f" + gaga1);
 

@@ -1,4 +1,4 @@
-package study;
+package com.cxgc.study2;
 
 
 public class ClassLoaderTest {

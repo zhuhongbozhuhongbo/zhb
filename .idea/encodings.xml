@@ -2,10 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java/com/cxgc/device_simulation/Data.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cxgc/study2/ClassLoaderTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/gpsdecode/GPSDecode.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/javafifo/FIFOBag.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/stringoperation/DealStringSub.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/study/ClassLoaderTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/study/CompileConstantTest.java" charset="GBK" />
   </component>
 </project>

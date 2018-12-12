@@ -7,7 +7,7 @@ public class GPSDecode {
         System.out.println(ClassLoader.getSystemResource(""));
         java.text.DecimalFormat df = new java.text.DecimalFormat("#.000000");
 
-        String haha = "LeLQW1UU/G8=";
+        String haha = "LLK5AVVZ88o=";
         byte[] haha1 = Base64.getDecoder().decode(haha);
         System.out.println("   f" + haha1);
 

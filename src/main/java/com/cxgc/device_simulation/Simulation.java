@@ -1,7 +1,7 @@
 package com.cxgc.device_simulation;
 
 /*
-Î´ï¿½ï¿½ï¿½
+¦Ä???
  */
 public class Simulation {
     private static char[] dataBuffer = new char[156];
